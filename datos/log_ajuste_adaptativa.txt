@@ -1,0 +1,49 @@
+Agentes: ['mejorada', 'sin_adaptativa'] | semillas 2026..2325 (cada una 2 veces, cambiando quien empieza) | partidas: 600
+  20/600 partidas (23s)
+  40/600 partidas (48s)
+  60/600 partidas (70s)
+  80/600 partidas (91s)
+  100/600 partidas (109s)
+  120/600 partidas (133s)
+  140/600 partidas (153s)
+  160/600 partidas (173s)
+  180/600 partidas (190s)
+  200/600 partidas (213s)
+  220/600 partidas (239s)
+  240/600 partidas (259s)
+  260/600 partidas (277s)
+  280/600 partidas (299s)
+  300/600 partidas (319s)
+  320/600 partidas (340s)
+  340/600 partidas (365s)
+  360/600 partidas (385s)
+  380/600 partidas (403s)
+  400/600 partidas (427s)
+  420/600 partidas (449s)
+  440/600 partidas (469s)
+  460/600 partidas (489s)
+  480/600 partidas (510s)
+  500/600 partidas (534s)
+  520/600 partidas (556s)
+  540/600 partidas (576s)
+  560/600 partidas (596s)
+  580/600 partidas (615s)
+  600/600 partidas (634s)
+
+Resultados guardados en ..\..\datos\ajuste_adaptativa.csv
+
+======================================================================================
+TABLA DEL TORNEO
+======================================================================================
+Agente              V    D    E   %Vict     IC95% Wilson  Pts prom  t/decision  eval/dec
+mejorada          321  271    8   53.5%     [49.5, 57.5]    115.52     0.0540s     24119
+sin_adaptativa    271  321    8   45.2%     [41.2, 49.2]    113.23     0.0048s       447
+
+COMPARACIONES POR PAREJA
+--------------------------------------------------------------------------------------
+mejorada vs sin_adaptativa: 600 partidas | victorias 321-271 (empates 8)
+   % victorias de mejorada (sin empates) = 54.2%  IC95% Wilson [50.2, 58.2]
+   test binomial H0 p=0.5: p-valor = 0.04393 -> diferencia significativa (p<0.05)
+   diferencia de puntaje promedio (mejorada - sin_adaptativa) = 2.29  IC95% bootstrap [-0.34, 4.96]
+   cuando empieza mejorada: diferencia promedio = 2.18 (300 partidas)
+   cuando empieza sin_adaptativa: diferencia promedio = 2.40 (300 partidas)

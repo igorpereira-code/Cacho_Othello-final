@@ -1,0 +1,31 @@
+altura=4 ...
+  partida 1/4: 54 jugadas, promedio 0.0281s
+  partida 2/4: 54 jugadas, promedio 0.0202s
+  partida 3/4: 54 jugadas, promedio 0.0259s
+  partida 4/4: 54 jugadas, promedio 0.0182s
+altura=5 ...
+  partida 1/4: 53 jugadas, promedio 0.0847s
+  partida 2/4: 54 jugadas, promedio 0.0846s
+  partida 3/4: 53 jugadas, promedio 0.1083s
+  partida 4/4: 54 jugadas, promedio 0.0894s
+altura=6 ...
+  partida 1/4: 54 jugadas, promedio 0.2113s
+  partida 2/4: 53 jugadas, promedio 0.1720s
+  partida 3/4: 54 jugadas, promedio 0.2972s
+  partida 4/4: 54 jugadas, promedio 0.1789s
+altura=7 ...
+  partida 1/4: 54 jugadas, promedio 1.1887s
+  partida 2/4: 54 jugadas, promedio 0.7653s
+  partida 3/4: 54 jugadas, promedio 0.8502s
+  partida 4/4: 54 jugadas, promedio 0.6309s
+
+Datos guardados en ..\..\datos\datos_escalabilidad.csv (861 jugadas medidas)
+
+ altura  n jugadas   t promedio   t maximo
+      4        216       0.0231     0.1104
+      5        214       0.0917     0.4005
+      6        215       0.2150     1.0315
+      7        216       0.8588     4.6301
+
+Ajuste log-log  tiempo ~ 3.81e-06 * altura^6.25   (R^2 = 0.986)
+El ajuste potencia (log-log recta) es bueno: dentro de este rango de alturas el crecimiento se ve consistente con una ley de potencia.

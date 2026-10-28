@@ -1,0 +1,34 @@
+Agentes: ['V0:4', 'V1:4', 'V2:4'] | aperturas: 50 (6 jugadas al azar, semilla 2026) | partidas: 300
+  20/300 partidas jugadas
+  40/300 partidas jugadas
+  60/300 partidas jugadas
+  80/300 partidas jugadas
+  100/300 partidas jugadas
+  120/300 partidas jugadas
+  140/300 partidas jugadas
+  160/300 partidas jugadas
+  180/300 partidas jugadas
+  200/300 partidas jugadas
+  220/300 partidas jugadas
+  240/300 partidas jugadas
+  260/300 partidas jugadas
+  280/300 partidas jugadas
+  300/300 partidas jugadas
+
+Resultados guardados en ..\..\datos\resultados_othello.csv
+
+==============================================================================
+TABLA DEL TORNEO
+==============================================================================
+Agente        V    D    E   %Vict      IC95% Wilson  DifProm  t/jug(s)    Elo
+V2:4        131   61    8   65.5%      [58.7, 71.7]    13.06    0.0333   1601
+V1:4        113   81    6   56.5%      [49.6, 63.2]     4.38    0.0304   1567
+V0:4         48  150    2   24.0%      [18.6, 30.4]   -17.44    0.0128   1332
+
+COMPARACIONES POR PAREJA (test binomial bilateral, sin contar empates)
+------------------------------------------------------------------------------
+V0:4 vs V1:4: 27-73 (empates 0) | %vict V0:4 = 27.0% IC95% [19.3, 36.4] | p = 4.692e-06 -> significativo (p<0.05)
+V0:4 vs V2:4: 21-77 (empates 2) | %vict V0:4 = 21.4% IC95% [14.5, 30.5] | p = 1.089e-08 -> significativo (p<0.05)
+V1:4 vs V2:4: 40-54 (empates 6) | %vict V1:4 = 42.6% IC95% [33.0, 52.6] | p = 0.1797 -> NO significativo
+
+Chi-cuadrado de homogeneidad (victorias/derrotas por agente): chi2 = 83.345, gl = 2, p = (instala scipy para el p-valor)

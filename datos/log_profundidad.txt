@@ -1,0 +1,13 @@
+V2 a alturas [4, 5, 6, 7] contra V2:4 | 20 aperturas x 2 colores
+  altura 4: 20-20 (empates 0) | 50.0% IC95% [35.2, 64.8] | p = 1 | 0.0202 s/jugada | 43s
+  altura 5: 27-12 (empates 1) | 67.5% IC95% [52.0, 79.9] | p = 0.0237 | 0.0808 s/jugada | 112s
+  altura 6: 30-10 (empates 0) | 75.0% IC95% [59.8, 85.8] | p = 0.002221 | 0.2082 s/jugada | 250s
+  altura 7: 31-8 (empates 1) | 77.5% IC95% [62.5, 87.7] | p = 0.0002941 | 0.7383 s/jugada | 829s
+
+ altura    V    D    E   %Vict      IC95% Wilson  p binomial  s/jugada
+      4   20   20    0   50.0%      [35.2, 64.8]           1    0.0202
+      5   27   12    1   67.5%      [52.0, 79.9]      0.0237    0.0808
+      6   30   10    0   75.0%      [59.8, 85.8]    0.002221    0.2082
+      7   31    8    1   77.5%      [62.5, 87.7]   0.0002941    0.7383
+
+Partidas guardadas en ..\..\datos\victorias_profundidad.csv

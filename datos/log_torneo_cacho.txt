@@ -1,0 +1,29 @@
+Agentes: ['base', 'mejorada'] | semillas 2026..2125 (cada una 2 veces, cambiando quien empieza) | partidas: 200
+  20/200 partidas (19s)
+  40/200 partidas (40s)
+  60/200 partidas (59s)
+  80/200 partidas (79s)
+  100/200 partidas (102s)
+  120/200 partidas (123s)
+  140/200 partidas (148s)
+  160/200 partidas (171s)
+  180/200 partidas (194s)
+  200/200 partidas (216s)
+
+Resultados guardados en ..\..\datos\resultados_cacho.csv
+
+======================================================================================
+TABLA DEL TORNEO
+======================================================================================
+Agente              V    D    E   %Vict     IC95% Wilson  Pts prom  t/decision  eval/dec
+base               10  190    0    5.0%       [2.7, 9.0]     41.56     0.0081s      1403
+mejorada          190   10    0   95.0%     [91.0, 97.3]    116.31     0.0541s     24517
+
+COMPARACIONES POR PAREJA
+--------------------------------------------------------------------------------------
+base vs mejorada: 200 partidas | victorias 10-190 (empates 0)
+   % victorias de base (sin empates) = 5.0%  IC95% Wilson [2.7, 9.0]
+   test binomial H0 p=0.5: p-valor = 2.948e-44 -> diferencia significativa (p<0.05)
+   diferencia de puntaje promedio (base - mejorada) = -74.75  IC95% bootstrap [-79.84, -69.69]
+   cuando empieza base: diferencia promedio = -92.77 (100 partidas)
+   cuando empieza mejorada: diferencia promedio = -56.73 (100 partidas)

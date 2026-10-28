@@ -1,0 +1,301 @@
+dados,tiradas_restantes,ronda,libres,accion_base,accion_mejorada,distinta,tipo
+"(1, 3, 3, 3, 5)",0,6,"['1', '2', '3', '4', 'escalera', 'grande', 'poker']",anotar '3' (+9),anotar '3' (+9),False,anotar/anotar
+"(1, 4, 4, 5, 6)",2,8,"['1', '2', '3', '4', '5', 'grande']","tirar, guarda [4]","tirar, guarda [4, 4]",True,tirar/tirar
+"(3, 4, 5, 6, 6)",0,8,"['1', '2', '3', '4', '6', 'poker']",anotar '6' (+12),anotar '6' (+12),False,anotar/anotar
+"(1, 3, 5, 6, 6)",3,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']","tirar, guarda [3, 6]","tirar, guarda [6, 6]",True,tirar/tirar
+"(2, 3, 4, 5, 6)",1,6,"['1', '2', '4', '5', 'escalera', 'full', 'grande']",anotar '1' (+0),anotar 'escalera' (+25),True,anotar/anotar
+"(1, 2, 3, 3, 5)",2,8,"['1', '2', '3', 'escalera', 'full', 'grande']","tirar, guarda []","tirar, guarda [3, 3]",True,tirar/tirar
+"(1, 3, 3, 4, 5)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [3, 3]",True,tirar/tirar
+"(2, 4, 4, 5, 6)",2,6,"['1', '2', '3', '4', '6', 'escalera', 'grande']","tirar, guarda [4]","tirar, guarda [4, 4]",True,tirar/tirar
+"(3, 3, 3, 4, 5)",2,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']","tirar, guarda [5]","tirar, guarda [3, 3, 3]",True,tirar/tirar
+"(1, 3, 5, 5, 6)",3,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']","tirar, guarda []","tirar, guarda [5, 5]",True,tirar/tirar
+"(1, 1, 2, 3, 6)",2,6,"['1', '2', '3', '4', '5', '6', 'grande']","tirar, guarda [1, 1, 2, 6]","tirar, guarda [6]",True,tirar/tirar
+"(1, 5, 5, 5, 6)",0,6,"['1', '2', '3', '5', '6', 'escalera', 'grande']",anotar '5' (+15),anotar '5' (+15),False,anotar/anotar
+"(1, 4, 4, 4, 6)",0,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']",anotar '4' (+12),anotar '4' (+12),False,anotar/anotar
+"(2, 5, 5, 5, 5)",0,2,"['1', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'poker' (+40),anotar 'poker' (+40),False,anotar/anotar
+"(1, 3, 5, 5, 6)",3,8,"['1', '2', '3', '4', '6', 'poker']","tirar, guarda [1, 3, 5]","tirar, guarda [6]",True,tirar/tirar
+"(5, 5, 5, 5, 5)",0,4,"['1', '2', '3', '5', '6', 'escalera', 'grande', 'poker']",anotar 'grande' (+50),anotar 'grande' (+50),False,anotar/anotar
+"(2, 3, 4, 6, 6)",2,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']","tirar, guarda [3, 6]","tirar, guarda [6, 6]",True,tirar/tirar
+"(2, 3, 4, 5, 6)",2,6,"['1', '2', '3', '4', '6', 'escalera', 'full']",anotar 'escalera' (+25),anotar 'escalera' (+25),False,anotar/anotar
+"(4, 4, 4, 5, 6)",2,8,"['1', '2', '3', '4', '6', 'escalera']","tirar, guarda [4, 4, 5, 6]","tirar, guarda [4, 4, 4]",True,tirar/tirar
+"(2, 3, 4, 4, 5)",3,6,"['1', '2', '4', '5', 'escalera', 'full', 'grande']",anotar '1' (+0),"tirar, guarda [2, 3, 4, 5]",True,anotar/tirar
+"(3, 3, 3, 4, 4)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'full' (+30),anotar 'full' (+30),False,anotar/anotar
+"(1, 1, 4, 4, 4)",3,6,"['1', '2', '3', '4', '6', 'grande', 'poker']",anotar '2' (+0),"tirar, guarda [4, 4, 4]",True,anotar/tirar
+"(1, 4, 4, 5, 6)",3,4,"['1', '2', '3', '5', '6', 'escalera', 'full', 'grande']","tirar, guarda [5, 6]","tirar, guarda [5]",True,tirar/tirar
+"(1, 2, 4, 5, 5)",2,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']","tirar, guarda []","tirar, guarda [5, 5]",True,tirar/tirar
+"(1, 3, 4, 6, 6)",3,6,"['1', '2', '3', '5', '6', 'escalera', 'grande']",anotar '2' (+0),"tirar, guarda [6, 6]",True,anotar/tirar
+"(1, 1, 2, 3, 5)",3,6,"['1', '3', '4', '6', 'escalera', 'full', 'grande']",anotar '4' (+0),"tirar, guarda []",True,anotar/tirar
+"(4, 4, 4, 6, 6)",1,8,"['1', '2', '3', '6', 'escalera', 'grande']",anotar '1' (+0),"tirar, guarda [6, 6]",True,anotar/tirar
+"(1, 1, 5, 5, 5)",2,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']",anotar '2' (+0),anotar 'full' (+30),True,anotar/anotar
+"(1, 1, 2, 6, 6)",2,4,"['1', '2', '3', '5', '6', 'escalera', 'grande', 'poker']","tirar, guarda []","tirar, guarda [6, 6]",True,tirar/tirar
+"(3, 4, 4, 5, 6)",3,2,"['1', '2', '3', '4', '6', 'escalera', 'full', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [4, 4]",True,anotar/tirar
+"(1, 1, 1, 4, 4)",1,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']","tirar, guarda []","tirar, guarda [4, 4]",True,tirar/tirar
+"(1, 4, 4, 5, 5)",2,8,"['1', '2', '4', '5', '6', 'grande']","tirar, guarda [4]","tirar, guarda [5, 5]",True,tirar/tirar
+"(1, 1, 1, 1, 6)",0,4,"['1', '2', '3', '4', '5', '6', 'grande', 'poker']",anotar 'poker' (+40),anotar 'poker' (+40),False,anotar/anotar
+"(3, 3, 3, 3, 4)",0,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'poker' (+40),anotar 'poker' (+40),False,anotar/anotar
+"(3, 5, 5, 6, 6)",3,2,"['1', '2', '3', '4', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda [5]","tirar, guarda [6, 6]",True,tirar/tirar
+"(3, 3, 4, 4, 5)",2,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']","tirar, guarda []","tirar, guarda [4, 4]",True,tirar/tirar
+"(1, 2, 2, 3, 5)",3,4,"['1', '3', '4', '5', '6', 'escalera', 'full', 'grande']",anotar '4' (+0),"tirar, guarda [5]",True,anotar/tirar
+"(1, 1, 1, 4, 5)",3,8,"['1', '2', '3', '4', '6', 'escalera']","tirar, guarda [1, 1, 4, 5]","tirar, guarda [4]",True,tirar/tirar
+"(1, 2, 4, 5, 6)",3,8,"['1', '2', '3', '5', '6', 'escalera']","tirar, guarda []","tirar, guarda [6]",True,tirar/tirar
+"(1, 4, 4, 5, 6)",3,8,"['1', '2', '3', '5', '6', 'escalera']","tirar, guarda []","tirar, guarda [6]",True,tirar/tirar
+"(4, 5, 5, 5, 5)",0,6,"['1', '2', '3', '5', '6', 'escalera', 'poker']",anotar 'poker' (+40),anotar 'poker' (+40),False,anotar/anotar
+"(1, 1, 1, 1, 3)",1,4,"['1', '2', '3', '4', '5', '6', 'grande', 'poker']",anotar 'poker' (+40),"tirar, guarda [1, 1, 1, 1]",True,anotar/tirar
+"(3, 3, 4, 4, 6)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [4, 4]",True,tirar/tirar
+"(5, 6, 6, 6, 6)",1,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'poker' (+40),"tirar, guarda [6, 6, 6, 6]",True,anotar/tirar
+"(3, 4, 5, 6, 6)",2,6,"['1', '2', '3', '5', '6', 'escalera', 'grande']",anotar '1' (+0),"tirar, guarda [6, 6]",True,anotar/tirar
+"(3, 3, 4, 5, 5)",3,4,"['1', '2', '3', '5', '6', 'escalera', 'full', 'poker']","tirar, guarda []","tirar, guarda [3, 3, 5, 5]",True,tirar/tirar
+"(3, 3, 3, 3, 5)",0,4,"['1', '2', '3', '5', '6', 'escalera', 'grande', 'poker']",anotar 'poker' (+40),anotar 'poker' (+40),False,anotar/anotar
+"(1, 2, 3, 5, 6)",2,8,"['1', '2', '3', '4', '5', 'grande']",anotar '4' (+0),"tirar, guarda [5]",True,anotar/tirar
+"(1, 2, 6, 6, 6)",0,8,"['1', '2', '3', '4', '6', 'full']",anotar '6' (+18),anotar '6' (+18),False,anotar/anotar
+"(2, 3, 3, 3, 6)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [3, 3, 3]",True,tirar/tirar
+"(1, 3, 4, 5, 6)",3,6,"['1', '2', '3', '5', '6', 'escalera', 'grande']",anotar '2' (+0),"tirar, guarda [5]",True,anotar/tirar
+"(2, 3, 3, 4, 5)",0,4,"['1', '2', '3', '4', '5', 'escalera', 'full', 'grande']",anotar '3' (+6),anotar '3' (+6),False,anotar/anotar
+"(1, 1, 1, 4, 6)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [1, 1, 1]",True,tirar/tirar
+"(2, 3, 5, 6, 6)",0,6,"['1', '3', '4', '5', '6', 'escalera', 'grande']",anotar '6' (+12),anotar '6' (+12),False,anotar/anotar
+"(2, 3, 3, 3, 3)",0,6,"['1', '2', '3', '4', '5', '6', 'grande']",anotar '3' (+12),anotar '3' (+12),False,anotar/anotar
+"(4, 4, 4, 4, 5)",2,4,"['1', '2', '3', '4', '6', 'escalera', 'grande', 'poker']",anotar 'poker' (+40),"tirar, guarda [4, 4, 4, 4]",True,anotar/tirar
+"(2, 2, 4, 6, 6)",0,4,"['1', '2', '3', '5', '6', 'escalera', 'full', 'grande']",anotar '6' (+12),anotar '6' (+12),False,anotar/anotar
+"(1, 3, 3, 3, 3)",2,6,"['1', '2', '3', '4', '5', '6', 'grande']","tirar, guarda [3]","tirar, guarda [3, 3, 3, 3]",True,tirar/tirar
+"(1, 2, 2, 2, 6)",1,6,"['1', '2', '3', '5', '6', 'escalera', 'poker']","tirar, guarda []","tirar, guarda [2, 2, 2]",True,tirar/tirar
+"(1, 3, 5, 5, 5)",0,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']",anotar '5' (+15),anotar '5' (+15),False,anotar/anotar
+"(2, 2, 2, 2, 2)",1,6,"['1', '2', '3', '4', '6', 'escalera', 'grande']",anotar 'grande' (+50),anotar 'grande' (+50),False,anotar/anotar
+"(2, 2, 3, 6, 6)",1,4,"['1', '2', '3', '5', '6', 'escalera', 'full', 'grande']","tirar, guarda [2, 6]","tirar, guarda [2, 2, 6, 6]",True,tirar/tirar
+"(2, 2, 2, 3, 5)",0,6,"['1', '2', '3', '5', '6', 'escalera', 'poker']",anotar '2' (+6),anotar '2' (+6),False,anotar/anotar
+"(3, 4, 4, 6, 6)",1,6,"['1', '2', '3', '4', '5', '6', 'grande']","tirar, guarda [3, 4, 4, 6]","tirar, guarda [6, 6]",True,tirar/tirar
+"(1, 4, 4, 5, 5)",3,6,"['1', '2', '3', '5', '6', 'escalera', 'poker']","tirar, guarda [4]","tirar, guarda [5, 5]",True,tirar/tirar
+"(3, 4, 5, 6, 6)",0,8,"['1', '2', '3', '5', 'escalera', 'grande']",anotar '5' (+5),anotar '5' (+5),False,anotar/anotar
+"(2, 4, 4, 6, 6)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [6, 6]",True,tirar/tirar
+"(2, 2, 3, 4, 5)",2,6,"['1', '2', '4', '5', 'escalera', 'full', 'grande']",anotar '1' (+0),"tirar, guarda [2, 3, 4, 5]",True,anotar/tirar
+"(4, 4, 4, 4, 6)",0,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'poker' (+40),anotar 'poker' (+40),False,anotar/anotar
+"(1, 1, 4, 5, 6)",2,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'full']","tirar, guarda [5, 6]","tirar, guarda [5]",True,tirar/tirar
+"(1, 1, 1, 2, 6)",1,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [1, 1, 1]",True,tirar/tirar
+"(4, 6, 6, 6, 6)",0,8,"['1', '2', '3', '5', '6', 'escalera']",anotar '6' (+24),anotar '6' (+24),False,anotar/anotar
+"(1, 4, 4, 4, 4)",3,8,"['1', '2', '3', '6', 'escalera', 'grande']","tirar, guarda [4, 4, 4, 4]","tirar, guarda [4, 4, 4, 4]",False,tirar/tirar
+"(1, 3, 5, 5, 6)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [5, 5]",True,tirar/tirar
+"(2, 4, 6, 6, 6)",2,8,"['1', '2', '3', '4', '6', 'grande']","tirar, guarda [2, 4]","tirar, guarda [6, 6, 6]",True,tirar/tirar
+"(4, 4, 6, 6, 6)",1,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']",anotar 'full' (+30),anotar 'full' (+30),False,anotar/anotar
+"(3, 4, 4, 4, 5)",2,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']","tirar, guarda [3, 4]","tirar, guarda [4, 4, 4]",True,tirar/tirar
+"(2, 2, 5, 5, 5)",0,4,"['1', '2', '3', '4', '5', '6', 'grande', 'poker']",anotar '5' (+15),anotar '5' (+15),False,anotar/anotar
+"(4, 4, 5, 5, 6)",2,6,"['1', '3', '4', '6', 'escalera', 'full', 'grande']",anotar '1' (+0),"tirar, guarda [4, 4, 5, 5]",True,anotar/tirar
+"(1, 2, 3, 5, 5)",2,6,"['1', '2', '3', '5', 'escalera', 'full', 'grande']","tirar, guarda []","tirar, guarda [5, 5]",True,tirar/tirar
+"(1, 2, 3, 3, 6)",3,8,"['1', '2', '3', 'escalera', 'full', 'grande']","tirar, guarda []","tirar, guarda [3, 3]",True,tirar/tirar
+"(1, 2, 6, 6, 6)",0,8,"['1', '2', '3', '4', '6', 'grande']",anotar '6' (+18),anotar '6' (+18),False,anotar/anotar
+"(2, 3, 4, 5, 5)",2,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']","tirar, guarda []","tirar, guarda [2, 3, 4, 5]",True,tirar/tirar
+"(1, 3, 3, 3, 6)",3,2,"['1', '2', '3', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar '2' (+0),"tirar, guarda [3, 3, 3]",True,anotar/tirar
+"(1, 4, 4, 5, 5)",1,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']","tirar, guarda [1, 4]","tirar, guarda [4, 4, 5, 5]",True,tirar/tirar
+"(3, 4, 4, 5, 5)",0,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'full']",anotar '5' (+10),anotar '5' (+10),False,anotar/anotar
+"(1, 1, 1, 4, 6)",2,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'poker']","tirar, guarda [1]","tirar, guarda [1, 1, 1]",True,tirar/tirar
+"(1, 2, 3, 4, 5)",2,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']",anotar 'escalera' (+25),anotar 'escalera' (+25),False,anotar/anotar
+"(1, 3, 3, 4, 5)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [3, 3]",True,tirar/tirar
+"(1, 2, 5, 6, 6)",2,8,"['1', '2', '3', '4', '6', 'full']","tirar, guarda []","tirar, guarda [6, 6]",True,tirar/tirar
+"(1, 2, 3, 3, 5)",3,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']","tirar, guarda [2, 3]","tirar, guarda [3, 3]",True,tirar/tirar
+"(1, 4, 4, 4, 4)",1,8,"['1', '2', '3', '4', '6', 'escalera']","tirar, guarda [4, 4, 4, 4]","tirar, guarda [4, 4, 4, 4]",False,tirar/tirar
+"(1, 4, 4, 5, 6)",3,6,"['1', '2', '3', '5', '6', 'escalera', 'grande']",anotar '2' (+0),"tirar, guarda [5]",True,anotar/tirar
+"(2, 4, 5, 5, 5)",1,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']","tirar, guarda [4]","tirar, guarda [5, 5, 5]",True,tirar/tirar
+"(4, 5, 5, 5, 5)",1,6,"['1', '2', '3', '5', 'escalera', 'full', 'grande']",anotar '5' (+20),"tirar, guarda [5, 5, 5, 5]",True,anotar/tirar
+"(2, 4, 5, 5, 6)",3,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']",anotar '1' (+0),"tirar, guarda [5, 5]",True,anotar/tirar
+"(1, 4, 5, 6, 6)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [6, 6]",True,tirar/tirar
+"(2, 4, 6, 6, 6)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [6, 6, 6]",True,tirar/tirar
+"(1, 3, 3, 4, 5)",3,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']","tirar, guarda [3, 5]","tirar, guarda [3, 3]",True,tirar/tirar
+"(3, 4, 4, 5, 5)",2,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']","tirar, guarda [4, 5]","tirar, guarda [4, 4, 5, 5]",True,tirar/tirar
+"(2, 2, 3, 4, 4)",0,6,"['1', '2', '3', '4', '6', 'escalera', 'grande']",anotar '4' (+8),anotar '4' (+8),False,anotar/anotar
+"(1, 1, 1, 3, 4)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [1, 1, 1]",True,tirar/tirar
+"(1, 2, 2, 4, 6)",2,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']","tirar, guarda [2, 6]","tirar, guarda [2, 2]",True,tirar/tirar
+"(1, 2, 2, 2, 2)",2,8,"['1', '3', '5', '6', 'escalera', 'poker']",anotar '3' (+0),anotar 'poker' (+40),True,anotar/anotar
+"(3, 4, 6, 6, 6)",2,4,"['1', '2', '3', '4', '6', 'escalera', 'full', 'grande']","tirar, guarda [6, 6]","tirar, guarda [6, 6, 6]",True,tirar/tirar
+"(4, 4, 4, 4, 6)",0,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'poker' (+40),anotar 'poker' (+40),False,anotar/anotar
+"(2, 2, 2, 3, 5)",1,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [2, 2, 2]",True,tirar/tirar
+"(2, 3, 4, 5, 5)",3,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']","tirar, guarda []","tirar, guarda [2, 3, 4, 5]",True,tirar/tirar
+"(1, 2, 2, 4, 6)",2,8,"['1', '2', '3', '5', '6', 'escalera']","tirar, guarda []","tirar, guarda [6]",True,tirar/tirar
+"(2, 3, 3, 5, 5)",1,8,"['1', '2', '4', '5', '6', 'grande']","tirar, guarda [5]","tirar, guarda [5, 5]",True,tirar/tirar
+"(1, 2, 2, 4, 6)",3,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']","tirar, guarda [2, 6]","tirar, guarda [2, 2]",True,tirar/tirar
+"(1, 2, 2, 3, 5)",3,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'full']","tirar, guarda [2, 3]","tirar, guarda [5]",True,tirar/tirar
+"(1, 4, 4, 4, 4)",0,8,"['1', '2', '3', '4', '6', 'escalera']",anotar '4' (+16),anotar '4' (+16),False,anotar/anotar
+"(2, 4, 5, 6, 6)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [6, 6]",True,tirar/tirar
+"(3, 4, 4, 5, 5)",0,8,"['1', '2', '4', '5', '6', 'grande']",anotar '5' (+10),anotar '5' (+10),False,anotar/anotar
+"(3, 4, 4, 4, 4)",0,6,"['1', '2', '3', '4', '6', 'grande', 'poker']",anotar 'poker' (+40),anotar 'poker' (+40),False,anotar/anotar
+"(1, 2, 2, 3, 5)",2,4,"['1', '3', '4', '5', '6', 'escalera', 'full', 'grande']",anotar '4' (+0),"tirar, guarda [5]",True,anotar/tirar
+"(5, 5, 5, 5, 5)",2,6,"['1', '2', '3', '5', '6', 'escalera', 'grande']",anotar '1' (+0),anotar 'grande' (+50),True,anotar/anotar
+"(2, 2, 2, 3, 3)",3,6,"['1', '2', '3', '5', '6', 'escalera', 'poker']","tirar, guarda []","tirar, guarda [2, 2, 2]",True,tirar/tirar
+"(2, 2, 3, 5, 5)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [5, 5]",True,tirar/tirar
+"(2, 2, 2, 3, 3)",2,6,"['1', '2', '3', '4', '6', 'escalera', 'grande']","tirar, guarda [3]","tirar, guarda [2, 2, 2]",True,tirar/tirar
+"(1, 4, 4, 5, 5)",2,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']",anotar '2' (+0),"tirar, guarda [5, 5]",True,anotar/tirar
+"(2, 3, 4, 5, 6)",3,8,"['1', '2', '4', '5', 'full', 'grande']","tirar, guarda []","tirar, guarda [5]",True,tirar/tirar
+"(1, 1, 1, 2, 4)",0,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'poker']",anotar '4' (+4),anotar '4' (+4),False,anotar/anotar
+"(5, 5, 6, 6, 6)",1,4,"['1', '2', '3', '5', '6', 'escalera', 'full', 'poker']",anotar 'full' (+30),anotar 'full' (+30),False,anotar/anotar
+"(1, 5, 6, 6, 6)",1,4,"['1', '3', '4', '5', '6', 'escalera', 'grande', 'poker']",anotar '3' (+0),"tirar, guarda [6, 6, 6]",True,anotar/tirar
+"(4, 4, 4, 4, 4)",1,8,"['1', '2', '3', '6', 'escalera', 'grande']",anotar 'grande' (+50),anotar 'grande' (+50),False,anotar/anotar
+"(3, 3, 3, 3, 4)",1,4,"['1', '2', '3', '5', '6', 'escalera', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [3, 3, 3, 3]",True,anotar/tirar
+"(3, 4, 4, 5, 6)",1,8,"['1', '2', '3', '4', '5', 'grande']","tirar, guarda [4]","tirar, guarda [4, 4]",True,tirar/tirar
+"(2, 5, 5, 6, 6)",1,4,"['1', '2', '3', '5', '6', 'escalera', 'grande', 'poker']","tirar, guarda []","tirar, guarda [5, 5]",True,tirar/tirar
+"(3, 4, 4, 5, 5)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [5, 5]",True,tirar/tirar
+"(1, 4, 4, 5, 6)",0,8,"['1', '2', '3', '4', '5', 'grande']",anotar '4' (+8),anotar '4' (+8),False,anotar/anotar
+"(2, 2, 2, 4, 4)",2,6,"['1', '2', '3', '5', '6', 'escalera', 'poker']","tirar, guarda []","tirar, guarda [2, 2, 2]",True,tirar/tirar
+"(2, 3, 3, 3, 5)",3,6,"['1', '2', '3', '4', 'escalera', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [3, 3, 3]",True,anotar/tirar
+"(4, 4, 5, 5, 5)",0,8,"['1', '2', '4', '5', 'full', 'grande']",anotar 'full' (+30),anotar 'full' (+30),False,anotar/anotar
+"(1, 2, 3, 3, 5)",3,6,"['1', '2', '3', '5', 'escalera', 'full', 'grande']","tirar, guarda []","tirar, guarda [5]",True,tirar/tirar
+"(2, 2, 3, 4, 5)",1,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']","tirar, guarda [2, 5]","tirar, guarda [2, 3, 4, 5]",True,tirar/tirar
+"(1, 3, 3, 3, 3)",0,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'poker' (+40),anotar 'poker' (+40),False,anotar/anotar
+"(2, 2, 6, 6, 6)",1,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'full' (+30),anotar 'full' (+30),False,anotar/anotar
+"(1, 1, 3, 6, 6)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [6, 6]",True,tirar/tirar
+"(1, 1, 1, 5, 6)",3,8,"['1', '2', '3', '4', '6', 'full']","tirar, guarda []","tirar, guarda [6]",True,tirar/tirar
+"(4, 6, 6, 6, 6)",1,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']",anotar '6' (+24),"tirar, guarda [6, 6, 6, 6]",True,anotar/tirar
+"(1, 3, 3, 6, 6)",3,8,"['1', '2', '3', '6', 'escalera', 'grande']",anotar '2' (+0),"tirar, guarda [6, 6]",True,anotar/tirar
+"(2, 5, 5, 5, 6)",1,8,"['1', '3', '4', '5', 'escalera', 'grande']",anotar '1' (+0),"tirar, guarda [5, 5, 5]",True,anotar/tirar
+"(2, 3, 4, 5, 6)",3,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']",anotar 'escalera' (+25),anotar 'escalera' (+25),False,anotar/anotar
+"(1, 6, 6, 6, 6)",0,6,"['1', '2', '3', '4', '5', '6', 'grande']",anotar '6' (+24),anotar '6' (+24),False,anotar/anotar
+"(3, 5, 5, 6, 6)",2,8,"['1', '2', '3', '6', 'escalera', 'grande']",anotar '1' (+0),"tirar, guarda [6, 6]",True,anotar/tirar
+"(1, 3, 6, 6, 6)",2,8,"['1', '2', '3', '5', '6', 'escalera']","tirar, guarda []","tirar, guarda [6, 6, 6]",True,tirar/tirar
+"(3, 4, 4, 5, 5)",1,6,"['1', '3', '4', '6', 'escalera', 'full', 'grande']",anotar '1' (+0),"tirar, guarda [4, 4, 5, 5]",True,anotar/tirar
+"(4, 4, 5, 5, 5)",0,6,"['1', '3', '4', '6', 'escalera', 'full', 'grande']",anotar 'full' (+30),anotar 'full' (+30),False,anotar/anotar
+"(2, 2, 6, 6, 6)",1,4,"['1', '2', '3', '4', '6', 'escalera', 'full', 'grande']",anotar 'full' (+30),anotar 'full' (+30),False,anotar/anotar
+"(5, 5, 6, 6, 6)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'full' (+30),anotar 'full' (+30),False,anotar/anotar
+"(1, 4, 5, 5, 6)",1,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [5, 5]",True,tirar/tirar
+"(1, 3, 3, 4, 4)",2,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']","tirar, guarda [3, 4]","tirar, guarda [4, 4]",True,tirar/tirar
+"(2, 3, 6, 6, 6)",2,8,"['1', '2', '4', 'escalera', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [6, 6, 6]",True,anotar/tirar
+"(1, 5, 5, 6, 6)",1,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [5, 5, 6, 6]",True,tirar/tirar
+"(4, 4, 5, 5, 5)",2,6,"['1', '2', '3', '5', '6', 'escalera', 'poker']","tirar, guarda [4]","tirar, guarda [5, 5, 5]",True,tirar/tirar
+"(1, 1, 2, 2, 5)",2,6,"['1', '2', '3', '5', '6', 'escalera', 'grande']",anotar '3' (+0),"tirar, guarda [5]",True,anotar/tirar
+"(1, 4, 4, 4, 5)",2,6,"['1', '2', '3', '4', '6', 'grande', 'poker']",anotar '2' (+0),"tirar, guarda [4, 4, 4]",True,anotar/tirar
+"(3, 4, 5, 6, 6)",2,8,"['1', '2', '3', '4', '6', 'poker']","tirar, guarda [3, 4, 5, 6]","tirar, guarda [6, 6]",True,tirar/tirar
+"(1, 3, 4, 5, 6)",3,8,"['1', '2', '3', '4', '5', 'grande']",anotar '2' (+0),"tirar, guarda [5]",True,anotar/tirar
+"(1, 1, 1, 2, 4)",0,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar '4' (+4),anotar '4' (+4),False,anotar/anotar
+"(1, 3, 4, 5, 6)",3,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']","tirar, guarda [5, 6]","tirar, guarda [3, 4, 5]",True,tirar/tirar
+"(1, 1, 1, 1, 5)",3,4,"['1', '2', '3', '4', '5', '6', 'grande', 'poker']",anotar 'poker' (+40),"tirar, guarda [1, 1, 1, 1]",True,anotar/tirar
+"(1, 2, 5, 6, 6)",3,4,"['1', '2', '3', '4', 'escalera', 'full', 'grande', 'poker']",anotar '3' (+0),"tirar, guarda [6, 6]",True,anotar/tirar
+"(1, 3, 5, 5, 6)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [5, 5]",True,tirar/tirar
+"(3, 3, 3, 4, 5)",2,2,"['1', '2', '3', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [3, 3, 3]",True,anotar/tirar
+"(1, 1, 1, 3, 4)",3,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'poker']","tirar, guarda [1]","tirar, guarda [1, 1, 1]",True,tirar/tirar
+"(4, 5, 5, 5, 5)",0,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'poker' (+40),anotar 'poker' (+40),False,anotar/anotar
+"(1, 2, 3, 3, 6)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [3, 3]",True,tirar/tirar
+"(1, 2, 4, 6, 6)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [6, 6]",True,tirar/tirar
+"(2, 3, 6, 6, 6)",1,6,"['1', '2', '3', '5', '6', 'escalera', 'grande']",anotar '1' (+0),anotar '6' (+18),True,anotar/anotar
+"(2, 2, 3, 3, 3)",1,2,"['1', '2', '3', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar '1' (+0),anotar 'full' (+30),True,anotar/anotar
+"(1, 2, 3, 4, 6)",3,4,"['1', '2', '3', '5', '6', 'escalera', 'grande', 'poker']","tirar, guarda []","tirar, guarda [6]",True,tirar/tirar
+"(1, 2, 3, 3, 4)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [3, 3]",True,tirar/tirar
+"(1, 1, 3, 4, 5)",3,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']","tirar, guarda [3, 4]","tirar, guarda [3, 4, 5]",True,tirar/tirar
+"(1, 3, 4, 6, 6)",1,2,"['1', '2', '3', '4', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda [4]","tirar, guarda [6, 6]",True,tirar/tirar
+"(4, 6, 6, 6, 6)",1,8,"['1', '2', '3', '5', '6', 'escalera']",anotar '6' (+24),"tirar, guarda [6, 6, 6, 6]",True,anotar/tirar
+"(1, 4, 4, 4, 6)",0,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']",anotar '4' (+12),anotar '4' (+12),False,anotar/anotar
+"(2, 2, 2, 4, 6)",2,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [2, 2, 2]",True,anotar/tirar
+"(2, 3, 3, 5, 5)",2,2,"['1', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [5, 5]",True,anotar/tirar
+"(1, 1, 1, 2, 2)",3,6,"['1', '3', '4', '5', '6', 'escalera', 'grande']",anotar '3' (+0),"tirar, guarda []",True,anotar/tirar
+"(2, 2, 4, 5, 6)",3,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']","tirar, guarda []","tirar, guarda [2, 4, 5]",True,tirar/tirar
+"(1, 1, 2, 3, 5)",3,4,"['1', '2', '3', '4', '5', 'escalera', 'full', 'grande']","tirar, guarda [1]","tirar, guarda [5]",True,tirar/tirar
+"(4, 4, 5, 5, 5)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'full' (+30),anotar 'full' (+30),False,anotar/anotar
+"(4, 4, 6, 6, 6)",1,8,"['1', '2', '4', 'escalera', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [6, 6, 6]",True,anotar/tirar
+"(2, 4, 5, 6, 6)",2,4,"['1', '3', '4', '5', '6', 'escalera', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [6, 6]",True,anotar/tirar
+"(2, 2, 2, 3, 4)",0,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar '2' (+6),anotar '2' (+6),False,anotar/anotar
+"(2, 2, 4, 6, 6)",3,8,"['1', '2', '3', '4', '5', 'grande']","tirar, guarda [2]","tirar, guarda [4]",True,tirar/tirar
+"(1, 1, 2, 3, 3)",3,6,"['1', '2', '3', '4', '6', 'escalera', 'grande']","tirar, guarda [1]","tirar, guarda [3, 3]",True,tirar/tirar
+"(2, 3, 5, 5, 5)",3,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']","tirar, guarda [5]","tirar, guarda [5, 5, 5]",True,tirar/tirar
+"(1, 1, 1, 4, 5)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [1, 1, 1]",True,tirar/tirar
+"(2, 2, 6, 6, 6)",2,4,"['1', '2', '3', '4', 'escalera', 'full', 'grande', 'poker']",anotar '1' (+0),anotar 'full' (+30),True,anotar/anotar
+"(1, 3, 3, 5, 5)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [5, 5]",True,tirar/tirar
+"(2, 2, 3, 4, 6)",3,4,"['1', '3', '4', '5', '6', 'escalera', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [6]",True,anotar/tirar
+"(1, 2, 6, 6, 6)",3,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']","tirar, guarda [6]","tirar, guarda [6, 6, 6]",True,tirar/tirar
+"(1, 3, 3, 3, 3)",1,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'poker' (+40),"tirar, guarda [3, 3, 3, 3]",True,anotar/tirar
+"(4, 6, 6, 6, 6)",0,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']",anotar '6' (+24),anotar '6' (+24),False,anotar/anotar
+"(1, 2, 5, 6, 6)",3,8,"['1', '3', '4', '5', 'escalera', 'grande']",anotar '3' (+0),"tirar, guarda [5]",True,anotar/tirar
+"(2, 4, 4, 5, 6)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [4, 4]",True,tirar/tirar
+"(1, 2, 6, 6, 6)",0,8,"['1', '2', '4', 'escalera', 'grande', 'poker']",anotar '2' (+2),anotar '2' (+2),False,anotar/anotar
+"(2, 3, 5, 5, 5)",0,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']",anotar '5' (+15),anotar '5' (+15),False,anotar/anotar
+"(4, 5, 5, 5, 5)",1,2,"['1', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [5, 5, 5, 5]",True,anotar/tirar
+"(2, 3, 4, 4, 4)",1,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']","tirar, guarda [3, 4]","tirar, guarda [4, 4, 4]",True,tirar/tirar
+"(3, 4, 4, 4, 6)",1,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [4, 4, 4]",True,tirar/tirar
+"(1, 3, 3, 3, 3)",0,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']",anotar 'poker' (+40),anotar 'poker' (+40),False,anotar/anotar
+"(1, 2, 6, 6, 6)",1,6,"['1', '2', '3', '4', '5', '6', 'grande']","tirar, guarda [2, 6]","tirar, guarda [6, 6, 6]",True,tirar/tirar
+"(2, 2, 5, 6, 6)",1,6,"['1', '3', '4', '5', '6', 'escalera', 'grande']",anotar '1' (+0),"tirar, guarda [6, 6]",True,anotar/tirar
+"(1, 3, 3, 5, 6)",3,6,"['1', '2', '3', '4', '5', '6', 'grande']","tirar, guarda [1, 3, 3, 5]","tirar, guarda [6]",True,tirar/tirar
+"(2, 3, 3, 6, 6)",0,2,"['1', '2', '3', '4', '6', 'escalera', 'full', 'grande', 'poker']",anotar '6' (+12),anotar '6' (+12),False,anotar/anotar
+"(2, 3, 3, 3, 3)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'poker' (+40),"tirar, guarda [3, 3, 3, 3]",True,anotar/tirar
+"(2, 3, 3, 5, 5)",2,4,"['1', '2', '3', '5', '6', 'escalera', 'full', 'poker']","tirar, guarda []","tirar, guarda [5, 5]",True,tirar/tirar
+"(5, 5, 5, 5, 5)",1,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'grande' (+50),anotar 'grande' (+50),False,anotar/anotar
+"(1, 5, 6, 6, 6)",1,8,"['1', '2', '3', '4', '6', 'grande']","tirar, guarda [6, 6]","tirar, guarda [6, 6, 6]",True,tirar/tirar
+"(1, 1, 1, 5, 5)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'full' (+30),anotar 'full' (+30),False,anotar/anotar
+"(2, 4, 5, 5, 5)",2,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']","tirar, guarda [4]","tirar, guarda [5, 5, 5]",True,tirar/tirar
+"(2, 4, 5, 6, 6)",2,8,"['1', '2', '3', '5', 'escalera', 'grande']",anotar '1' (+0),"tirar, guarda [5]",True,anotar/tirar
+"(2, 2, 2, 5, 6)",0,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']",anotar '2' (+6),anotar '2' (+6),False,anotar/anotar
+"(1, 6, 6, 6, 6)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'poker' (+40),"tirar, guarda [6, 6, 6, 6]",True,anotar/tirar
+"(1, 2, 6, 6, 6)",0,6,"['1', '2', '3', '4', '5', '6', 'grande']",anotar '6' (+18),anotar '6' (+18),False,anotar/anotar
+"(3, 3, 3, 3, 4)",1,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']",anotar 'poker' (+40),"tirar, guarda [3, 3, 3, 3]",True,anotar/tirar
+"(1, 4, 4, 5, 6)",1,2,"['1', '2', '3', '4', '6', 'escalera', 'full', 'grande', 'poker']",anotar '2' (+0),"tirar, guarda [4, 4]",True,anotar/tirar
+"(3, 3, 4, 4, 4)",0,2,"['1', '2', '3', '4', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'full' (+30),anotar 'full' (+30),False,anotar/anotar
+"(1, 3, 4, 6, 6)",2,2,"['1', '2', '3', '4', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda [4]","tirar, guarda [6, 6]",True,tirar/tirar
+"(2, 2, 3, 5, 5)",3,2,"['1', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [5, 5]",True,anotar/tirar
+"(2, 4, 4, 5, 5)",1,8,"['1', '2', '4', '5', 'full', 'grande']","tirar, guarda []","tirar, guarda [4, 4, 5, 5]",True,tirar/tirar
+"(1, 3, 5, 5, 6)",3,4,"['1', '2', '3', '4', '6', 'escalera', 'full', 'grande']","tirar, guarda [5, 6]","tirar, guarda [6]",True,tirar/tirar
+"(1, 3, 3, 3, 6)",2,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']","tirar, guarda [3, 6]","tirar, guarda [3, 3, 3]",True,tirar/tirar
+"(2, 2, 2, 4, 5)",3,8,"['1', '3', '5', '6', 'escalera', 'poker']",anotar '1' (+0),"tirar, guarda [2, 2, 2]",True,anotar/tirar
+"(1, 1, 5, 5, 5)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'full' (+30),anotar 'full' (+30),False,anotar/anotar
+"(2, 3, 4, 4, 4)",1,6,"['1', '2', '3', '4', '6', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [4, 4, 4]",True,anotar/tirar
+"(1, 2, 3, 5, 5)",2,8,"['1', '2', '4', '5', 'full', 'grande']","tirar, guarda []","tirar, guarda [5, 5]",True,tirar/tirar
+"(1, 3, 4, 4, 6)",2,2,"['1', '2', '3', '4', '6', 'escalera', 'full', 'grande', 'poker']",anotar '2' (+0),"tirar, guarda [4, 4]",True,anotar/tirar
+"(1, 3, 4, 5, 6)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [5]",True,tirar/tirar
+"(1, 3, 3, 3, 4)",1,6,"['1', '2', '3', '4', 'escalera', 'grande', 'poker']",anotar '2' (+0),"tirar, guarda [3, 3, 3]",True,anotar/tirar
+"(1, 2, 2, 2, 5)",2,6,"['1', '3', '4', '5', '6', 'escalera', 'grande']",anotar '3' (+0),"tirar, guarda [5]",True,anotar/tirar
+"(1, 2, 5, 5, 5)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [5, 5, 5]",True,tirar/tirar
+"(4, 4, 4, 4, 5)",1,4,"['1', '2', '3', '4', '6', 'escalera', 'grande', 'poker']",anotar 'poker' (+40),"tirar, guarda [4, 4, 4, 4]",True,anotar/tirar
+"(3, 5, 5, 5, 6)",1,6,"['1', '2', '3', '5', '6', 'escalera', 'grande']",anotar '1' (+0),"tirar, guarda [5, 5, 5]",True,anotar/tirar
+"(5, 5, 5, 5, 6)",0,6,"['1', '2', '3', '5', 'escalera', 'full', 'grande']",anotar '5' (+20),anotar '5' (+20),False,anotar/anotar
+"(1, 2, 2, 4, 5)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [2, 2]",True,tirar/tirar
+"(3, 3, 5, 5, 6)",3,4,"['1', '2', '3', '4', '5', '6', 'grande', 'poker']","tirar, guarda [5]","tirar, guarda [5, 5]",True,tirar/tirar
+"(3, 6, 6, 6, 6)",0,8,"['1', '2', '3', '5', '6', 'escalera']",anotar '6' (+24),anotar '6' (+24),False,anotar/anotar
+"(1, 2, 4, 4, 5)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [4, 4]",True,tirar/tirar
+"(2, 4, 4, 6, 6)",0,8,"['1', '2', '3', '6', 'escalera', 'grande']",anotar '6' (+12),anotar '6' (+12),False,anotar/anotar
+"(3, 5, 5, 5, 6)",2,8,"['1', '3', '4', '5', 'escalera', 'grande']",anotar '1' (+0),"tirar, guarda [5, 5, 5]",True,anotar/tirar
+"(2, 2, 2, 3, 6)",1,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [2, 2, 2]",True,anotar/tirar
+"(1, 4, 5, 5, 5)",0,8,"['1', '2', '3', '4', '5', 'grande']",anotar '5' (+15),anotar '5' (+15),False,anotar/anotar
+"(2, 2, 2, 2, 2)",2,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']",anotar 'grande' (+50),anotar 'grande' (+50),False,anotar/anotar
+"(1, 2, 3, 3, 3)",2,4,"['1', '2', '3', '5', '6', 'escalera', 'grande', 'poker']",anotar '5' (+0),"tirar, guarda [3, 3, 3]",True,anotar/tirar
+"(2, 3, 3, 3, 4)",2,6,"['1', '2', '3', '4', 'escalera', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [3, 3, 3]",True,anotar/tirar
+"(4, 5, 5, 6, 6)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [6, 6]",True,tirar/tirar
+"(2, 3, 4, 4, 5)",1,4,"['1', '2', '3', '4', '5', 'escalera', 'full', 'grande']","tirar, guarda [5]","tirar, guarda [2, 3, 4, 5]",True,tirar/tirar
+"(1, 5, 5, 5, 5)",1,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'poker' (+40),"tirar, guarda [5, 5, 5, 5]",True,anotar/tirar
+"(3, 3, 3, 4, 6)",0,8,"['1', '2', '3', 'escalera', 'full', 'grande']",anotar '3' (+9),anotar '3' (+9),False,anotar/anotar
+"(1, 3, 3, 5, 6)",3,4,"['1', '2', '3', '5', '6', 'escalera', 'grande', 'poker']",anotar '2' (+0),"tirar, guarda [3, 3]",True,anotar/tirar
+"(2, 3, 3, 4, 6)",3,8,"['1', '2', '3', '4', '6', 'grande']","tirar, guarda [3, 6]","tirar, guarda [6]",True,tirar/tirar
+"(1, 3, 3, 3, 3)",1,6,"['1', '2', '3', '4', '5', '6', 'grande']","tirar, guarda [3]","tirar, guarda [3, 3, 3, 3]",True,tirar/tirar
+"(1, 1, 3, 5, 6)",1,4,"['1', '3', '4', '5', '6', 'escalera', 'full', 'grande']",anotar '4' (+0),"tirar, guarda [5]",True,anotar/tirar
+"(1, 3, 3, 4, 6)",1,8,"['1', '2', '3', 'escalera', 'full', 'grande']","tirar, guarda []","tirar, guarda [3, 3]",True,tirar/tirar
+"(1, 2, 3, 4, 5)",1,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']",anotar 'escalera' (+25),anotar 'escalera' (+25),False,anotar/anotar
+"(2, 3, 3, 4, 5)",2,4,"['1', '2', '3', '4', '5', 'escalera', 'full', 'grande']","tirar, guarda [5]","tirar, guarda [2, 3, 4, 5]",True,tirar/tirar
+"(1, 2, 3, 4, 4)",3,4,"['1', '2', '3', '4', '6', 'escalera', 'grande', 'poker']","tirar, guarda []","tirar, guarda [4, 4]",True,tirar/tirar
+"(4, 4, 4, 4, 4)",0,4,"['1', '2', '3', '4', '6', 'escalera', 'grande', 'poker']",anotar 'grande' (+50),anotar 'grande' (+50),False,anotar/anotar
+"(1, 1, 4, 4, 6)",1,6,"['1', '2', '3', '4', '6', 'escalera', 'grande']","tirar, guarda [1]","tirar, guarda [4, 4]",True,tirar/tirar
+"(1, 3, 4, 5, 6)",3,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']","tirar, guarda []","tirar, guarda [3, 4, 5]",True,tirar/tirar
+"(1, 3, 5, 5, 5)",2,4,"['1', '2', '3', '4', '5', '6', 'grande', 'poker']","tirar, guarda [5]","tirar, guarda [5, 5, 5]",True,tirar/tirar
+"(3, 3, 5, 5, 5)",1,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']","tirar, guarda []","tirar, guarda [5, 5, 5]",True,tirar/tirar
+"(1, 3, 4, 5, 6)",2,6,"['1', '2', '3', '4', '5', '6', 'grande']","tirar, guarda [5, 6]","tirar, guarda [6]",True,tirar/tirar
+"(2, 3, 4, 4, 6)",0,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']",anotar '4' (+8),anotar '4' (+8),False,anotar/anotar
+"(4, 4, 4, 4, 5)",0,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']",anotar 'poker' (+40),anotar 'poker' (+40),False,anotar/anotar
+"(2, 4, 5, 6, 6)",2,4,"['1', '2', '3', '5', '6', 'escalera', 'full', 'grande']","tirar, guarda [2, 4]","tirar, guarda [6, 6]",True,tirar/tirar
+"(3, 4, 4, 5, 5)",1,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'full']","tirar, guarda [4, 5]","tirar, guarda [4, 4, 5, 5]",True,tirar/tirar
+"(2, 3, 3, 4, 5)",3,6,"['1', '2', '3', '4', '6', 'escalera', 'full']","tirar, guarda []","tirar, guarda [2, 3, 4, 5]",True,tirar/tirar
+"(3, 4, 5, 5, 5)",1,6,"['1', '2', '3', '5', '6', 'escalera', 'poker']","tirar, guarda [4]","tirar, guarda [5, 5, 5]",True,tirar/tirar
+"(1, 1, 5, 5, 6)",1,8,"['1', '2', '3', '4', '5', 'grande']",anotar '2' (+0),"tirar, guarda [5, 5]",True,anotar/tirar
+"(2, 4, 4, 4, 4)",1,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'poker' (+40),"tirar, guarda [4, 4, 4, 4]",True,anotar/tirar
+"(2, 4, 4, 5, 5)",0,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']",anotar '5' (+10),anotar '4' (+8),True,anotar/anotar
+"(1, 3, 5, 6, 6)",1,8,"['1', '2', '3', '4', '6', 'poker']","tirar, guarda [3, 5, 6, 6]","tirar, guarda [6, 6]",True,tirar/tirar
+"(1, 1, 1, 1, 5)",2,4,"['1', '2', '3', '4', '5', '6', 'grande', 'poker']",anotar 'poker' (+40),"tirar, guarda [1, 1, 1, 1]",True,anotar/tirar
+"(3, 4, 5, 5, 6)",0,4,"['1', '3', '4', '5', '6', 'escalera', 'full', 'grande']",anotar '5' (+10),anotar '5' (+10),False,anotar/anotar
+"(2, 4, 4, 5, 5)",1,4,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande']",anotar '1' (+0),"tirar, guarda [4, 4]",True,anotar/tirar
+"(1, 2, 4, 6, 6)",3,8,"['1', '2', '4', 'escalera', 'grande', 'poker']",anotar 'escalera' (+0),"tirar, guarda [6, 6]",True,anotar/tirar
+"(3, 3, 3, 3, 6)",1,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'poker' (+40),"tirar, guarda [3, 3, 3, 3]",True,anotar/tirar
+"(1, 4, 5, 5, 6)",3,8,"['1', '2', '4', '5', '6', 'grande']","tirar, guarda [4]","tirar, guarda [5, 5]",True,tirar/tirar
+"(3, 4, 6, 6, 6)",1,8,"['1', '2', '3', '4', '6', 'full']","tirar, guarda []","tirar, guarda [6, 6, 6]",True,tirar/tirar
+"(2, 2, 2, 2, 5)",3,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']","tirar, guarda [2]","tirar, guarda [2, 2, 2, 2]",True,tirar/tirar
+"(1, 4, 5, 5, 5)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [5, 5, 5]",True,tirar/tirar
+"(4, 6, 6, 6, 6)",2,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']",anotar '6' (+24),"tirar, guarda [6, 6, 6, 6]",True,anotar/tirar
+"(1, 4, 4, 5, 6)",3,6,"['1', '2', '3', '4', '5', '6', 'grande']","tirar, guarda [5, 6]","tirar, guarda [6]",True,tirar/tirar
+"(2, 2, 2, 3, 6)",3,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']",anotar '1' (+0),"tirar, guarda [2, 2, 2]",True,anotar/tirar
+"(1, 1, 2, 3, 4)",3,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [1, 1]",True,tirar/tirar
+"(1, 3, 3, 3, 3)",0,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']",anotar 'poker' (+40),anotar 'poker' (+40),False,anotar/anotar
+"(1, 1, 1, 3, 6)",1,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'poker']","tirar, guarda [1]","tirar, guarda [1, 1, 1]",True,tirar/tirar
+"(3, 6, 6, 6, 6)",0,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'poker' (+40),anotar 'poker' (+40),False,anotar/anotar
+"(2, 4, 5, 6, 6)",3,8,"['1', '2', '3', '5', 'escalera', 'grande']",anotar '1' (+0),"tirar, guarda [2, 4, 5]",True,anotar/tirar
+"(1, 2, 3, 4, 5)",0,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'grande', 'poker']",anotar 'escalera' (+25),anotar 'escalera' (+25),False,anotar/anotar
+"(5, 5, 6, 6, 6)",1,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']",anotar 'full' (+30),anotar 'full' (+30),False,anotar/anotar
+"(1, 2, 5, 5, 5)",3,2,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande']",anotar '3' (+0),"tirar, guarda [5, 5, 5]",True,anotar/tirar
+"(1, 2, 5, 5, 5)",2,0,"['1', '2', '3', '4', '5', '6', 'escalera', 'full', 'grande', 'poker']","tirar, guarda []","tirar, guarda [5, 5, 5]",True,tirar/tirar

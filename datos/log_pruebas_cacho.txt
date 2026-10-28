@@ -1,0 +1,28 @@
+1) Probabilidades y tablas
+[OK] las probabilidades de 5 dados suman 1  (1.000000000000)
+[OK] la base sobreestima 'grande' (trata las 252 combinaciones como igual de probables)  (base 1.190 vs real 0.039)
+[OK] P(grande) con tirada inicial + 2 tiradas = 4.60% (valor conocido del Yahtzee)  (4.60%)
+[OK] varianza de '6' con una tirada = 36*5*(1/6)*(5/6) = 25  (25.000000)
+[OK] varianza de 'grande' = 2500*p*(1-p)
+
+2) Punto de vista y simetria
+[OK] evaluar desde un jugador es exactamente el opuesto que desde el otro
+[OK] en un estado final la funcion da la diferencia real de puntos  (-15.0)
+[OK] con w3 < 1, mas puntos propios siempre suben la evaluacion (300 estados al azar)
+[OK] con (3,3,5,5,6) sin tiradas no regala puntos: anota 10 en '5'
+
+3) Decisiones de la IA mejorada
+[OK] con (6,6,6,6,6) anota 'grande'
+[OK] con (3,3,3,4,4) anota 'full'
+[OK] con (2,2,2,5,6) y 3 tiradas guarda los tres 2
+[OK] sin tiradas siempre anota  (('anotar', '4'))
+
+4) Las optimizaciones no cambian la decision
+[OK] con y sin memoizacion se elige la misma accion (15 estados al azar)
+[OK] la poda reduce las evaluaciones  (738 con poda vs 1692 sin poda)
+
+5) Partida completa en el entorno
+[OK] el primer turno arranca con una tirada al azar  (112 tiradas distintas en 200 partidas)
+[OK] una partida IA mejorada vs IA mejorada termina bien  (puntajes [127, 103])
+
+17/17 pruebas OK

@@ -1,0 +1,14 @@
+200 estados de decision reales (con tiradas disponibles)
+
+altura  configuracion           t prom (s)  t max (s)  evaluaciones  calculos  misma accion
+1       sin poda, sin memo          0.0342      0.059          1690      1690        100.0%
+1       con poda, sin memo          0.0110      0.024           552       552         97.5%
+1       sin poda, con memo          0.0094      0.025          1690       260        100.0%
+1       con poda, con memo          0.0061      0.015           552       260         97.5%
+2       con poda, sin memo          4.8109     12.632        217215    217215        100.0%
+2       sin poda, con memo          0.5663      1.056        277624       202        100.0%
+2       con poda, con memo          0.1919      0.317         91094       202        100.0%
+
+Agente completo (profundidad adaptativa): t prom 0.0687s, t max 0.342s, 30723 evaluaciones, profundidad 2 en 24.0% de las decisiones
+
+Guardado en ..\..\datos\eficiencia_cacho.csv
